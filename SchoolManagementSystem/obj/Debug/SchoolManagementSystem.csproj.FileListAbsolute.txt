@@ -1,0 +1,233 @@
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Data.SqlClient.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.AccessControl.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.Permissions.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.Principal.Windows.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Data.SqlClient.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.AccessControl.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.Permissions.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.Principal.Windows.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.AddStudent.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Forms.Admin.Admin.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.AddEmployee.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.AdminProfile.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.EmployeeAttendance.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.EmployeeCardLayout.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ManageNonTeachingStaff.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ManageTeacher.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ManageUserAccounts.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.UserAccountInfoCardLayout.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Challan_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.LateFee_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.Manage_Student.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ViewEmployeeDetails.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Login_Window.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AddTimeTable.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Classes_Window_Main.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Class_Subjects_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Class_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Employee_AttendanceCard_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Employee_Attendance_Report.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Manage_Class.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Manage_Section.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Manage_Subject_Syllabus.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Principal_Account_Settings.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Subjects_Window_Main.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Subject_TxtBox_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Subject_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.TimeTabel.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.TimeTable_Main.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Forms.Principal.Principal.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Properties.Resources.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Section_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.RecentAttendanceInfoCardLayout.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.UpdateEmployee.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.StudentInfoCardLayout.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Teacher.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.TeacherForms.Class_Attendance.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.TeacherForms.Teacher_Account_Settings.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ViewStudentDetails.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.UpdateStudent.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.GenerateResource.cache
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.CoreCompileInputs.cache
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.CopyComplete
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.UnAssignedStudents.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.LoadingScreen.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.TeacherForms.StudentAttendance.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Accountants.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Salary_UC.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.Reports.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.Shared.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Microsoft.VisualStudio.Validation.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\ShockwaveFlashObjects.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\stdole.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\Microsoft.VisualStudio.Validation.xml
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\cs\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\de\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\es\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\fr\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\it\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\ja\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\ko\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\pl\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\ru\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\tr\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\bin\Debug\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.g.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.AssemblyReference.cache
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Class_Reports.resources
+D:\Projects\Database\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.AssemblyReference.cache
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.g.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.LateFee_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Salary_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Accountants.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.AddStudent.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.AddEmployee.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Forms.Admin.Admin.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.LoadingScreen.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ManageUserAccounts.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.RecentAttendanceInfoCardLayout.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.Reports.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.StudentInfoCardLayout.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.UnAssignedStudents.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.AdminProfile.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.EmployeeAttendance.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.EmployeeCardLayout.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.UpdateEmployee.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.UpdateStudent.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.UserAccountInfoCardLayout.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ViewEmployeeDetails.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ViewStudentDetails.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Challan_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Login_Window.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ManageNonTeachingStaff.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.Manage_Student.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AdminForms.ManageTeacher.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AddTimeTable.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Classes_Window_Main.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Class_Reports.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Class_Subjects_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Class_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Employee_AttendanceCard_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Employee_Attendance_Report.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Manage_Class.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Manage_Section.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Manage_Subject_Syllabus.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Principal_Account_Settings.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Subjects_Window_Main.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Subject_TxtBox_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.Subject_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.TimeTabel.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.PrincipalForms.TimeTable_Main.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Forms.Principal.Principal.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Properties.Resources.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Section_UC.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.Teacher.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.TeacherForms.Class_Attendance.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.TeacherForms.StudentAttendance.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.TeacherForms.Teacher_Account_Settings.resources
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.GenerateResource.cache
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.CoreCompileInputs.cache
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.exe
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.pdb
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe.config
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.exe
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\SchoolManagementSystem.pdb
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.Shared.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\Microsoft.VisualStudio.Validation.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Data.SqlClient.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.AccessControl.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.Permissions.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.Principal.Windows.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\ShockwaveFlashObjects.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\stdole.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\Microsoft.VisualStudio.Validation.xml
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Data.SqlClient.xml
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.AccessControl.xml
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.Permissions.xml
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\System.Security.Principal.Windows.xml
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\cs\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\de\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\es\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\fr\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\it\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\ja\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\ko\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\pl\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\ru\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\tr\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\bin\Debug\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.csproj.CopyComplete
+D:\Projects\Database\Final Project\DB-GID-28\DBFinalProject2\SchoolManagementSystem\obj\Debug\SchoolManagementSystem.AccountantReports.Reports.resources

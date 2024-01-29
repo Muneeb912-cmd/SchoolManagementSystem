@@ -1,0 +1,791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C94930DD-52D5-4321-AA14-89458B45E465}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SchoolManagementSystem</RootNamespace>
+    <AssemblyName>SchoolManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+      <HintPath>D:\usb\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>D:\usb\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>C:\Users\LENOVO\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Validation, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.VisualStudio.Validation.17.0.46\lib\netstandard2.0\Microsoft.VisualStudio.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Configuration.ConfigurationManager.6.0.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SqlClient.4.8.3\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.AccessControl.6.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Permissions.6.0.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountantFolder\ClassAutoComplete.cs" />
+    <Compile Include="AccountantFolder\LateFee_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccountantFolder\LateFee_UC.designer.cs">
+      <DependentUpon>LateFee_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountantFolder\Salary_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccountantFolder\Salary_UC.designer.cs">
+      <DependentUpon>Salary_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountantReports\FeeReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FeeReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AccountantReports\Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountantReports\Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accountants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accountants.designer.cs">
+      <DependentUpon>Accountants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AddStudent.designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AddEmployee.designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\LoadingScreen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\LoadingScreen.designer.cs">
+      <DependentUpon>LoadingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\ManageUserAccounts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\ManageUserAccounts.designer.cs">
+      <DependentUpon>ManageUserAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\RecentAttendanceInfoCardLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\RecentAttendanceInfoCardLayout.designer.cs">
+      <DependentUpon>RecentAttendanceInfoCardLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\Reports.Designer.cs">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\StudentInfoCardLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\StudentInfoCardLayout.designer.cs">
+      <DependentUpon>StudentInfoCardLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\AccountantReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccountantReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AdminReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AttendanceReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendanceReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\UnAssignedStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\UnAssignedStudents.designer.cs">
+      <DependentUpon>UnAssignedStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\AdminProfile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\AdminProfile.designer.cs">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\EmployeeAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\EmployeeAttendance.designer.cs">
+      <DependentUpon>EmployeeAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\EmployeeCardLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\EmployeeCardLayout.designer.cs">
+      <DependentUpon>EmployeeCardLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\UpdateEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\UpdateEmployee.designer.cs">
+      <DependentUpon>UpdateEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\UpdateStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForms\UpdateStudent.designer.cs">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\UserAccountInfoCardLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\UserAccountInfoCardLayout.designer.cs">
+      <DependentUpon>UserAccountInfoCardLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\ViewEmployeeDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\ViewEmployeeDetails.designer.cs">
+      <DependentUpon>ViewEmployeeDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\ViewStudentDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\ViewStudentDetails.designer.cs">
+      <DependentUpon>ViewStudentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountantFolder\Challan_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccountantFolder\Challan_UC.designer.cs">
+      <DependentUpon>Challan_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Window.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Window.designer.cs">
+      <DependentUpon>Login_Window.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\ManageNonTeachingStaff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\ManageNonTeachingStaff.designer.cs">
+      <DependentUpon>ManageNonTeachingStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\ManageStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\ManageStudent.designer.cs">
+      <DependentUpon>ManageStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForms\ManageTeacher.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminForms\ManageTeacher.designer.cs">
+      <DependentUpon>ManageTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\AddTimeTable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\AddTimeTable.designer.cs">
+      <DependentUpon>AddTimeTable.cs</DependentUpon>
+    </Compile>
+    <!-- <Compile Include="Admin1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Admin.resx</DependentUpon>
+    </Compile> -->
+    <Compile Include="PrincipalForms\Classes_Window_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Classes_Window_Main.Designer.cs">
+      <DependentUpon>Classes_Window_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Class_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Class_Reports.Designer.cs">
+      <DependentUpon>Class_Reports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Class_Subjects_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Class_Subjects_UC.Designer.cs">
+      <DependentUpon>Class_Subjects_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Class_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Class_UC.Designer.cs">
+      <DependentUpon>Class_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Employee_AttendanceCard_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Employee_AttendanceCard_UC.Designer.cs">
+      <DependentUpon>Employee_AttendanceCard_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Employee_Attendance_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Employee_Attendance_Report.Designer.cs">
+      <DependentUpon>Employee_Attendance_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Manage_Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Manage_Class.Designer.cs">
+      <DependentUpon>Manage_Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Manage_Section.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Manage_Section.Designer.cs">
+      <DependentUpon>Manage_Section.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Manage_Subject_Syllabus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Manage_Subject_Syllabus.Designer.cs">
+      <DependentUpon>Manage_Subject_Syllabus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Principal_Account_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Principal_Account_Settings.Designer.cs">
+      <DependentUpon>Principal_Account_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Reports\FilteredTeacherClassesAndSubjectsRPT.cs">
+      <DependentUpon>FilteredTeacherClassesAndSubjectsRPT.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="PrincipalForms\Reports\FilteredSessionPlusTeacherClassesAndSubjectsRPT.cs">
+      <DependentUpon>FilteredSessionPlusTeacherClassesAndSubjectsRPT.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="PrincipalForms\Reports\FilteredSessionClassesAndSubjectsRPT.cs">
+      <DependentUpon>FilteredSessionClassesAndSubjectsRPT.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="PrincipalForms\Reports\AllClassesAndSubjectsRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllClassesAndSubjectsRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Reports\FilteredClassesAndSectionsRPT.cs">
+      <DependentUpon>FilteredClassesAndSectionsRPT.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="PrincipalForms\Reports\ClassesAndSectionsRPT.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClassesAndSectionsRPT.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Subjects_Window_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Subjects_Window_Main.Designer.cs">
+      <DependentUpon>Subjects_Window_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Subject_TxtBox_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Subject_TxtBox_UC.Designer.cs">
+      <DependentUpon>Subject_TxtBox_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\Subject_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\Subject_UC.Designer.cs">
+      <DependentUpon>Subject_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\TimeTabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\TimeTabel.designer.cs">
+      <DependentUpon>TimeTabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForms\TimeTable_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForms\TimeTable_Main.Designer.cs">
+      <DependentUpon>TimeTable_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrincipalForms\Section_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reports\OtherReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PrincipleReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrincipleReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\StudentReports.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentReports.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\TeacherReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TeacherReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQL_Configuration.cs" />
+    <Compile Include="Teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher.Designer.cs">
+      <DependentUpon>Teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherForms\Class_Attendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherForms\Class_Attendance.Designer.cs">
+      <DependentUpon>Class_Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherForms\StudentAttendance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TeacherForms\StudentAttendance.Designer.cs">
+      <DependentUpon>StudentAttendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherForms\Teacher_Account_Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherForms\Teacher_Account_Settings.Designer.cs">
+      <DependentUpon>Teacher_Account_Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validators.cs" />
+    <Compile Include="PrincipalForms\Section_UC.Designer.cs">
+      <DependentUpon>Section_UC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountantFolder\LateFee_UC.resx">
+      <DependentUpon>LateFee_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountantFolder\Salary_UC.resx">
+      <DependentUpon>Salary_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountantReports\FeeReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FeeReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountantReports\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accountants.resx">
+      <DependentUpon>Accountants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\LoadingScreen.resx">
+      <DependentUpon>LoadingScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\ManageUserAccounts.resx">
+      <DependentUpon>ManageUserAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\RecentAttendanceInfoCardLayout.resx">
+      <DependentUpon>RecentAttendanceInfoCardLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\Reports.resx">
+      <DependentUpon>Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\StudentInfoCardLayout.resx">
+      <DependentUpon>StudentInfoCardLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\UnAssignedStudents.resx">
+      <DependentUpon>UnAssignedStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\AdminProfile.resx">
+      <DependentUpon>AdminProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\EmployeeAttendance.resx">
+      <DependentUpon>EmployeeAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\EmployeeCardLayout.resx">
+      <DependentUpon>EmployeeCardLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\UpdateEmployee.resx">
+      <DependentUpon>UpdateEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\UpdateStudent.resx">
+      <DependentUpon>UpdateStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\UserAccountInfoCardLayout.resx">
+      <DependentUpon>UserAccountInfoCardLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\ViewEmployeeDetails.resx">
+      <DependentUpon>ViewEmployeeDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\ViewStudentDetails.resx">
+      <DependentUpon>ViewStudentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountantFolder\Challan_UC.resx">
+      <DependentUpon>Challan_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Window.resx">
+      <DependentUpon>Login_Window.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\ManageNonTeachingStaff.resx">
+      <DependentUpon>ManageNonTeachingStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\ManageStudent.resx">
+      <DependentUpon>ManageStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminForms\ManageTeacher.resx">
+      <DependentUpon>ManageTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\AddTimeTable.resx">
+      <DependentUpon>AddTimeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Classes_Window_Main.resx">
+      <DependentUpon>Classes_Window_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Class_Reports.resx">
+      <DependentUpon>Class_Reports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Class_Subjects_UC.resx">
+      <DependentUpon>Class_Subjects_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Class_UC.resx">
+      <DependentUpon>Class_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Employee_AttendanceCard_UC.resx">
+      <DependentUpon>Employee_AttendanceCard_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Employee_Attendance_Report.resx">
+      <DependentUpon>Employee_Attendance_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Manage_Class.resx">
+      <DependentUpon>Manage_Class.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Manage_Section.resx">
+      <DependentUpon>Manage_Section.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Manage_Subject_Syllabus.resx">
+      <DependentUpon>Manage_Subject_Syllabus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Principal_Account_Settings.resx">
+      <DependentUpon>Principal_Account_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Reports\FilteredTeacherClassesAndSubjectsRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FilteredTeacherClassesAndSubjectsRPT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Reports\FilteredSessionPlusTeacherClassesAndSubjectsRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FilteredSessionPlusTeacherClassesAndSubjectsRPT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Reports\FilteredSessionClassesAndSubjectsRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FilteredSessionClassesAndSubjectsRPT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Reports\AllClassesAndSubjectsRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AllClassesAndSubjectsRPT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Reports\FilteredClassesAndSectionsRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FilteredClassesAndSectionsRPT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Reports\ClassesAndSectionsRPT.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ClassesAndSectionsRPT.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Subjects_Window_Main.resx">
+      <DependentUpon>Subjects_Window_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Subject_TxtBox_UC.resx">
+      <DependentUpon>Subject_TxtBox_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\Subject_UC.resx">
+      <DependentUpon>Subject_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\TimeTabel.resx">
+      <DependentUpon>TimeTabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForms\TimeTable_Main.resx">
+      <DependentUpon>TimeTable_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PrincipalForms\Section_UC.resx">
+      <DependentUpon>Section_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <Resource Include="Reports\StudentReports.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StudentReports.cs</LastGenOutput>
+    </Resource>
+    <EmbeddedResource Include="Reports\AccountantReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AccountantReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AdminReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AdminReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AttendanceReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AttendanceReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\OtherReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OtherReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PrincipleReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PrincipleReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TeacherReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TeacherReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher.resx">
+      <DependentUpon>Teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherForms\Class_Attendance.resx">
+      <DependentUpon>Class_Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherForms\StudentAttendance.resx">
+      <DependentUpon>StudentAttendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherForms\Teacher_Account_Settings.resx">
+      <DependentUpon>Teacher_Account_Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Reports\DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Media\icons8_add_property_64px.png" />
+    <Content Include="Media\icons8_add_property_64px_1.png" />
+    <Content Include="Media\icons8_admin_settings_male_64px.png" />
+    <Content Include="Media\icons8_books_64px.png" />
+    <Content Include="Media\icons8_classroom_64px_1.png" />
+    <Content Include="Media\icons8_Delete_64px.png" />
+    <Content Include="Media\icons8_delete_document_64px.png" />
+    <Content Include="Media\icons8_edit_64px.png" />
+    <Content Include="Media\icons8_edit_property_64px.png" />
+    <Content Include="Media\icons8_filter_64px.png" />
+    <Content Include="Media\icons8_joyent_64px.png" />
+    <Content Include="Media\icons8_lock_64px.png" />
+    <Content Include="Media\icons8_refresh_64px.png" />
+    <Content Include="Media\icons8_report_card_64px.png" />
+    <Content Include="Resources\icons8-settings %284%29.gif" />
+    <None Include="Resources\icons8-settings %284%291.gif" />
+    <None Include="Resources\icons8-search %283%29.gif" />
+    <None Include="Resources\icons8-document-64.png" />
+    <None Include="Resources\icons8-cash-in-hand-48.png" />
+    <None Include="Resources\icons8-fees-64.png" />
+    <None Include="Media\school_logo.png" />
+    <Content Include="Media\The Brain Train School %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
